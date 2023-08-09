@@ -1,0 +1,15 @@
+* Implementations of MD program for 2D polydisperse particles
+In the field of glass transition studies, valuable insights can be obtained through the execution of molecular dynamics simulations of models of glass formers.
+Within this research context, the primary challenge resides in achieving proper equilibration, owing to the slow relaxation of liquids at low temperatures close to the glass transition.
+
+In 2017, a model suitable for a specialized algorithm known as swap Monte Carlo was discovered, marking a significant breakthrough in the field.
+Subsequently, this model, two-dimensional polydisperse particles, has gained widespread adoption in the field.
+In this repository, I would delve into the efficient implementation of MD programs for this model.
+
+** References
+- Algorithmic details
+  - A. Ninarello, L. Berthier, and D. Coslovich, ''Models and Algorithms for the Next Generation of Glass Transition Studies'', Phys. Rev. X *7*, 021039 (2017)\\
+    https://doi.org/10.1103/PhysRevX.7.021039
+- 2D model
+  - L. Berthier et al., ''Zero-temperature glass transition in two dimensions'', Nat. Commun. *10*, 1508 (2019)\\
+    https://doi.org/10.1038/s41467-019-09512-3
